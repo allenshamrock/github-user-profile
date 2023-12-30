@@ -25,7 +25,15 @@ body{
   margin: auto;
   display: flex;
   align-items: center;
+  flex-direction: column;
   gap: 30px;
+}
+.user img{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
 }
 .icon {
   height: 100px;
@@ -34,7 +42,7 @@ body{
   border-radius: 50%;
 }
 img{
-    height: 100px;
+    height: 150px;
     border-radius: 50%;
     object-position: center;
 }
@@ -49,4 +57,14 @@ img{
     color: #fff;
     padding: 0 30px;
     border-radius: 12px;
+}
+#repository ul li{
+    text-align: start;
+}
+#repository ul li a{
+   gap: 10px;
+   text-decoration: none;
+   color: #fff;
+   width: 700px;
+   line-height: 30px
 }
